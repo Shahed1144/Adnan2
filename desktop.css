@@ -1,0 +1,141 @@
+body{
+    background-color:burlywood;
+	font-family: 'Oswald',sans-sefif;
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nav-logo{
+text-align: left;
+margin: 0;
+
+}
+.nav-heading h1{
+text-align: right;
+font-weight:bold;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.nav-menu a{
+background-color: transparent;
+margin: 15px 0;
+padding: 5px 8px;
+
+
+}
+.nav-container{
+    width: 99%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color:white;
+	
+}
+
+
+
+    /*navbar ends here*/
+	
+.profile .top-icon{
+		position:absolute;
+		right:100px;
+		top:20px;
+		
+		transition:width 2s,transform 2s;
+}
+.profile .top-icon:hover{
+		  
+	height:160px;
+		width:160px;
+	transform:rotate(360deg)
+}		
+.desc p{
+		 color:gray;
+       text-align:center;
+       margin-bottom:10px;	 
+	  margin: 0  auto;
+	  width:50%;
+}	
+
+
+.profile .bottom-icon{
+		position:absolute;
+		left:140px;
+		bottom:10px;
+		
+		transition:width 2s,transform 2s;
+}
+.profile .bottom-icon:hover{
+		  
+	height:160px;
+		width:160px;
+	transform:rotate(360deg)
+}	
+	.profile::after{
+		content:'';
+		display:table;
+		clear:both;
+		
+		
+		
+	} 
+
+
+/*about me design start*/
+
+.about-img{
+	margin-top:100px;
+}	
+
+.about-img img{
+	
+	height:270px;
+	width:250px;
+}
+.about-desc p{
+	text-align:left;
+	
+}
+/* achievement contact start from here */
+.achievement-links{
+	position:relative;
+	
+	
+}
+.media-button{
+	position:absolute;
+	left:50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	
+	
+}
+/*footer starts here*/
+
+	
+	 /*footer ends here*/
+	   
+ .footer-menu a{
+	 display:inline;
+	 margin:10px;
+	
+ }
+ .footer-menu{
+	 padding:20px;
+ }

@@ -1,0 +1,379 @@
+ *{
+     margin: 0 auto;
+     padding: 0;
+    box-sizing: border-box;
+
+ }
+
+
+    body{
+        margin: 0;
+      background-color: rgb(138, 86, 8);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+     /* navbar start from hear */
+    .navbar{
+      background-color: teal;
+      padding: 1% 7%;
+      text-align: center;
+    }
+    h1{
+      font-size: 2.5rem;
+     
+      text-align: center;
+
+    }
+	h2{
+		
+		text-align:center;
+		font-size:1.5rem;
+	}
+
+    .navbar h1{
+
+        color: white;
+        margin: 0;
+        padding-top: 10px;
+		font-weight:30px;
+	}
+		
+	.dotted-hr{
+		
+		border: dotted 6px white;
+		border-bottom:none;
+		margin: 20px auto;
+		width: 70px;
+    }
+	.about-hr{
+		margin: 20px auto;
+		
+	}
+
+    a{
+       color: white;
+       text-decoration: none;
+       text-align: center;
+       font-size: 1.2rem;
+	   padding:10px;
+
+    }
+   [class*="col"]{
+    float: left;
+    padding: 10px;
+
+   }
+
+   /* for mobile */
+   [class*="col-"]{
+
+   width: 100%;
+
+   }
+
+
+
+   .nav-menu{
+       display: flex;
+       flex-direction: column;
+       text-transform: uppercase;
+   }
+
+   .nav-menu a{
+
+      background-color: #0c6168;
+      border-radius: 10px;
+      margin: 7px 0;
+
+   }
+  
+   .nav-menu a:hover{
+
+background-color: gray;
+
+   }
+
+
+  .navbar::after{
+      content: '';
+      display: table;
+  clear: both;
+  }
+  .nav-container{
+      width: 99%;
+      margin: auto;
+      padding: 10px;
+      background-color: white;
+  }
+      /*navbar ends here*/
+	  p{
+		  font-size:1.2rem;
+		  text-align:justify;
+	  }
+	  
+	.profile{
+		padding:130px 10px;
+		text-align:center;
+	 position:relative;	
+	}  
+	
+	.profile .top-icon{
+		position:absolute;
+		right:60px;
+		top:20px;
+		transition:transform 2s;
+		
+	}
+	  .profile .top-icon:hover{
+		  
+		  transform:rotate(360deg)
+	  }
+	  
+	  .desc h1{
+		  font-size:5rem;
+		  color:#052d2f;
+		  margin-bottom:10px;
+		  font-family:'Allison',cursive;
+		  font-weight:bold;
+		  
+	  }
+	  
+	  .desc p{
+		 color:gray;
+       text-align:center;
+       width: 90%;		 
+		  margin: 0  auto 20 auto;
+	  }
+	  .profile .bottom-icon{
+		position:absolute;
+		left:60px;
+		bottom:10px;
+		transition:transform 2s;
+		
+	}
+	  .profile .bottom-icon:hover{
+		  
+		  transform:rotate(360deg)
+	  }
+	  /* about me starts here*/
+	  
+	  .about-me{
+		 background:#39a4ac;
+         padding:1% 7%;		 
+		 color:white; 
+		 text-align:center;
+		   
+	  }
+	  
+	  .about-img img{
+		  border:5px solid white;
+		  border-radius:100%;
+		  height:220px;
+		  width:200px;
+		  
+	  }
+	  .cv-button{
+		  background-color:#052d2f;
+		  color:white;
+		  border:none;
+		  border-radius:12px;
+		  padding: 15px;
+		  font-size:1rem;
+		  cursor:pointer;
+		  text-align:center;
+		  margin:10px;
+	  }
+	  
+	  .about-me::after{
+		  content:'';
+		  display:table;
+		  clear:both;
+		  
+	  }
+	  .about-me p{
+		  
+		  text-align:center;
+	  }
+	  .about-me a{
+		  font-size: 1.2rem;
+		  
+		  
+	  }
+	   /* professional-experience starts here*/
+	   .professional-experience{
+		   padding: 1% 0%;
+		    
+	   }
+	   .professional-experience .card{
+		   background:#a39e9e;
+		   border-radius:5px;
+		   padding:40px;
+		   transition: 0.3s;
+		   height:px;
+		  
+	   }
+	   .card:hover{
+		   
+		   box-shadow: 0 4px 8px black;
+	   }
+	   
+	   .card-icon{
+		   text-align:center;
+	   }
+	   .card-description li p{
+		   text-align:left;
+		   padding:10px;
+	   }
+	   .card-description ol li strong{
+		   text-align:left;
+		   margin-top: 10px;
+	   }
+	   .card-description hr{
+		   
+		  margin-bottom:10px;
+	   }
+	   .card-icon img{
+		   
+		   margin-top:10px;
+		   width:120px;
+		   
+	   }
+	   
+	   .professional-experience::after{
+		   
+		   display:table;
+		   clear:both;
+		   content:'';
+		   
+	   }
+	   .rounded-img{
+		   border-radius:50%;
+		   border: 3px solid white;
+		   padding:10px;
+	   }
+	   .card-title h2{
+		   
+		   background-color:#616161;
+		   color: white;
+		   padding:10px;
+		   text-align:center;
+		   margin: 10px 0;
+	   }
+	   /* achievement contact start from here */
+	   
+	   .achievement{
+		   padding:1% 2%;
+		   background-color: #39a4ac;
+		   color:white;
+		     
+	   }
+	   .contact{
+		  text-align: center;   
+	   }
+	   
+		   
+	   
+	   .contact input, textarea{
+		   width:100%;
+		   padding:10px;
+		   font-size:1rem;
+		   text-align:center;
+		   border: none;
+		   border-radius:5px;
+		   resize:none;
+		   margin: 10px  0;
+	   }
+	   .contact button{
+		   border:none;
+		   font-size: 1.2rem;
+		   border-radius:12px;
+		   background-color:#052d2f;
+		   color:white;
+		   cursor:pointer;
+		   padding: 15px;
+		   margin:10px;
+		   width:100px;
+		   text-transform:uppercase;
+		   
+	   }
+	   .contact button:hover{
+		   
+		   background-color:gray;
+	   }
+	   
+	   .achievement-links{
+		   text-align:center;
+		   
+	   }
+	   .media-buttons .btn{
+		   border: none;
+		   border-radius:5px;
+		   font-size:32px;
+		   padding:5px;
+		   margin:10px;
+		   width:35px;
+		   background:gray;
+		   cursor:pointer;
+		   
+	   }
+	   .btn:hover{
+		   background:gray;
+	   }
+	   
+	   .achievement::after{
+		  content:'';
+		  display:table;
+		  clear:both;
+		}
+	   
+	   
+	   
+	   
+	   
+	   
+	   /*footer starts here*/
+	    .footer{
+			
+			background:black;
+			color:white;
+			padding:20 px;
+			text-align:center;
+			font-size: 0.8rem;
+			padding-top:25px;
+			
+		}
+		
+		.footer-menu a{
+			display:block;
+			margin:15px 0;
+			font-size:1rem;
+			
+			
+		}
+	   
+	   .footer-menu a:hover{
+		   background:gray;
+	   }
+	   
+	   
+	   .footer::after{
+		   
+		   display:table;
+		   clear:both;
+		   content:'';
+	   }
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   /*footer ends here*/
+	   
+	   
+	   
+	   
+	   
+	    
